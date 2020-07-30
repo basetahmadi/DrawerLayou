@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.drawerlayout_6mordad.AboutFragment"
+        android:label="AboutFragment" />
+    <fragment
+        android:id="@+id/oneFragment"
+        android:name="com.example.drawerlayout_6mordad.OneFragment"
+        android:label="OneFragment" />
+    <fragment
+        android:id="@+id/twoFragment"
+        android:name="com.example.drawerlayout_6mordad.TwoFragment"
+        android:label="TwoFragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.drawerlayout_6mordad.HomeFragment"
+        android:label="HomeFragment" />
+</navigation>
